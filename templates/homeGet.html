@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <form action="/data" method = ['GET']>
+            inserisci il tuo nome: <br>
+            <input type = 'text' name = 'nome'><br><br>
+            inserisci il tuo sesso: <br>
+            <input type = 'radio' name = 'sesso' value = 'M'> Maschio<br>
+            <input type = 'radio' name = 'sesso' value = 'F'> Femmina<br>
+            <input type = 'radio' name = 'sesso' value = 'A'> Altro<br><br>
+            inserisci i tuoi hobbies: <br>
+            <input type = 'checkbox' name = 'hobbies' value = 'sport'> sport<br>
+            <input type = 'checkbox' name = 'hobbies' value = 'cinema'> cinema<br>
+            <input type = 'checkbox' name = 'hobbies' value = 'libri'> libri<br>
+            <input type = 'checkbox' name = 'hobbies' value = 'giochi'> giochi<br><br>
+            scegli la tua città di residenza: <br>
+            <select name="citta">
+                <option value="Milano">Milano</option>
+                <option value="Roma">Roma</option>
+                <option value="Napoli">Napoli</option>
+            </select><br><br>
+            Inserisci una tua presentazione: <br>
+            <textarea name = 'presentazione' rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value='invia'>
+        </form>
+    </body>
+</html>
