@@ -24,7 +24,7 @@ def data():
     else: 
         nome = request.form['nome']
         sesso = request.form['sesso']
-        hobbies = request.form['hobbies']
+        hobbies = request.form.getlist('hobbies')
         citta = request.form['citta']
         presentazione = request.form['presentazione']
 
